@@ -1,0 +1,15 @@
+Gender,Age,Previously_Insured,Vehicle_Age,Vehicle_Damage,Annual_Premium,Vintage
+Male,44,0,> 2 Years,Yes,40454,217
+Male,76,0,1-2 Year,No,33536,183
+Male,47,0,> 2 Years,Yes,38294,27
+Male,21,1,< 1 Year,No,28619,203
+Female,29,1,< 1 Year,No,27496,39
+Female,24,0,< 1 Year,Yes,2630,176
+Male,23,0,< 1 Year,Yes,23367,249
+Female,56,0,1-2 Year,Yes,32031,72
+Female,24,1,< 1 Year,No,27619,28
+Female,32,1,< 1 Year,No,28771,80
+Female,47,0,1-2 Year,Yes,47576,46
+Female,24,1,< 1 Year,No,48699,289
+Female,41,1,1-2 Year,No,31409,221
+Male,76,0,1-2 Year,Yes,36770,15
