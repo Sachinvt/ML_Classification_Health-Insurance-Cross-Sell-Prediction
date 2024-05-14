@@ -28,3 +28,28 @@ In conclusion, building a predictive model to determine customer interest in veh
 
 # Problem Statement
 An insurance company, is seeking to enhance its business model and revenue by predicting customer interest in vehicle insurance among their existing health insurance policyholders. The client wants to develop a predictive model that will enable them to identify which policyholders are likely to consider purchasing vehicle insurance. To do this, the client has provided us with demographic information, vehicle details, and policy-related data for each customer. The objective is to leverage this information to create a predictive model that can segment policyholders and inform targeted marketing and communication strategies. Ultimately, the goal is to optimize revenue and increase customer engagement by offering relevant insurance products to interested policyholders.
+
+# Conclusion
+In this analysis, we began by loading our dataset and conducting initial data quality checks. Fortunately, we found no duplicates or missing values, so there was no need for data cleaning.
+
+Exploratory data analysis revealed several key insights:
+
+**Gender Distribution:** The dataset showed a nearly even distribution of gender, with a slightly higher representation of males. The likelihood of purchasing vehicle insurance was also slightly higher among males.
+
+**Interest in Vehicle Insurance:** Only 12.3% of individuals in the dataset expressed interest in purchasing vehicle insurance, while 87.7% were not interested. This suggests a need for effective marketing strategies and competitive pricing to attract more customers and generate leads.
+
+**Driving License (DL):** 99.8% of customers in the dataset held a driving license, while 0.2% did not. Only 12.2% of individuals with a driving license were interested in purchasing vehicle insurance, indicating a possible need for awareness campaigns or competitive offers.
+
+**Prior Insurance History:** About 45.8% of individuals had previous insurance, and among them, 12.2% were interested in purchasing insurance again. This indicates that individuals are willing to pay premiums for risk reduction, especially when there is a significant probability of loss.
+
+**Vehicle Age:** Vehicle age varied, with approximately 4.2% of vehicles being older than two years, 52.6% between one and two years, and 43.2% less than a year old. Interest in purchasing vehicle insurance increased as the vehicle's age exceeded one year, suggesting a correlation between age and the willingness to buy insurance.
+
+**Vehicle Damage:** About 50.5% of the vehicles in the dataset had past damage, and 12.0% of individuals with previously damaged vehicles were interested in acquiring vehicle insurance. This suggests that people with damaged vehicles tend to be more aware of insurance policies and benefits.
+
+**Age Groups:** The dataset had a diverse range of ages, with higher interest in purchasing vehicle insurance among individuals aged 40 to 60. Middle-aged individuals (40-60) showed the highest interest, with 9.3% interested in purchasing insurance.
+
+After the initial data analysis, we proceeded with data preprocessing, including handling outliers and feature encoding. The dataset was split into train and test sets. Six machine learning algorithms were employed to predict customer interest in purchasing vehicle insurance. Additionally, hyperparameter tuning was applied to three models to identify the best-performing model.
+
+The two most influential features in the models were vehicle damage and annual premium. Decision Tree and Random Forest models stood out with ROC AUC scores of 93% and 92%, respectively, outperforming the other algorithms. The conclusion is that these models are well-suited for predicting customer interest in vehicle insurance.
+
+In summary, this analysis revealed valuable insights into the dataset and identified potential target demographics for insurance companies. Additionally, by employing machine learning models, we can make predictions that can assist insurance companies in generating leads and tailoring their marketing strategies. Decision Tree and Random Forest emerged as the top-performing models, demonstrating their effectiveness in this predictive task.
